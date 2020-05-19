@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="vendor/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="vendor/css/style.css"/>
+    <script src="vendor/js/jquery-1.12.1.min.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="vendor/js/main.js"></script>
+  </head>
+
+  <body>
+
+
+
+    <!--   /////////////////////////////////////////////   navbar starts here    ///////////////////////////////////////////////  -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="iconscollapse"><i class="fa fa-search" aria-hidden="true"></i></a>              
+          </button>
+
+          <button type="button" class="navbar-toggle collapsebutton" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                      
+          </button>
+
+          <a class="navbar-brand" href="#"><img src="vendor/images/logo.png" width="180px" class="img-responsive" alt="logo"></a>
+        </div>
+        <ul  class=" nav navbar-nav navbar-right collapse navbar-collapse">  
+          <li ><a href="#" class="icons"><i data-toggle="modal" data-target="#myModal" class="fa fa-search" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="icons"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="icons"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="icons"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="icons"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="icons"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+          </ul>
+        </ul>
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="myNavbar">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">OUR CLIENTS</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACTS US</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    
+    <!--   /////////////////////////////////////////////   navbar ends here    ///////////////////////////////////////////////  -->
+   
+    <!--   /////////////////////////////////////////////   Modal starts here    ///////////////////////////////////////////////  -->
+   
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button> 
+      <div class="modal-dialog"> 
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">     
+            <div class="input-group input-group-lg">
+              <input id="search" type="text" class="form-control" name="search" placeholder="Enter your keywords...">
+              <span class="input-group-addon"><button class="btn btn-default btn-xs"><i class="fa fa-search"></button></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--   /////////////////////////////////////////////   Modal ends here    ///////////////////////////////////////////////  -->
+   
+
+
+    <!--   /////////////////////////////////////////////   carousel starts here    ///////////////////////////////////////////////  -->
+   
+
+    
+<div class="container-fluid">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <div class="col-md-6 carouseltext">
+          <h1>We deliver clients to your door</h1>
+          <h3>That's our promise</h3>
+          <button class=" btn btn-default">START NOW</button>
+        </div>
+        <div class="col-md-6 image">
+        <img src="vendor/images/puzzel.jpg" class="img-responsive" alt="puzzel">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="col-md-6 carouseltext">
+          <h1>We deliver clients to your door</h1>
+          <h3>That's our promise</h3>
+          <button class=" btn btn-default">START NOW</button>
+        </div>
+        <div class="col-md-6 image">
+        <img src="vendor/images/shake.jpg" class="img-responsive" alt="shake">
+        </div>
+      </div>
+    
+      <div class="item">
+        <div class="col-md-6 carouseltext">
+          <h1>We deliver clients to your door</h1>
+          <h3>That's our promise</h3>
+          <button class=" btn btn-default">START NOW</button>
+        </div>
+        <div class="col-md-6 image">
+        <img src="vendor/images/plan.jpg" class="img-responsive" alt="plan">
+        </div>
+      </div>
+
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+    <!--   /////////////////////////////////////////////   carousel ends here    ///////////////////////////////////////////////  -->
+   
+<!-- ////////////////////////////////////////////////        our services starts here         /////////////////////////////////////////// -->
+
+<div class="container services text-center">
+
+  <div class=" col-md-12">
+    <h6>OUR SERVICES</h6>
+    <h2>THAT'S WHAT WE DO</h2>
+    <hr>
+  </div>
+  <div class="tenservices">
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Srategy Building</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Website Development</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Multimedia Development</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Social Media Marketing</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Search Engine Optimization and Marketing</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Online Advertising</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Email Marketing</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Lead Generation Campaigns</h5>
+    </div>
+    <div class="threeservices col-md-4">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Brand identity Design</h5>
+    </div>
+    <div class="threeservices col-md-12">
+      <img src="vendor/images/youtube.png" width="90px">
+      <h5>Growth Hacking</h5>
+    </div>
+  </div>
+</div>
+
+
+<!-- ////////////////////////////////////////////////        our services ends here         /////////////////////////////////////////// -->
+
+<!-- ////////////////////////////////////////////////        3images starts here         /////////////////////////////////////////// -->
+
+<div class="container-fluid threeimgs">
+  <div class="col-md-4 imgblackcover1">
+      <div class="colorcontent1">
+        <h2>Why Work with Bridge?</h2>
+        <h5>At Bridge and through its employees and Partners we have a long experience in Marketing, Business, and Technology. Not that we only know Marketing, but that we also have a deep understanding in Business and Technology. Through combining our knowledge we can always find the best Marketing Solution that is right for your business making use of latest technology.</h5>
+      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="imgblackcover2">
+      <div class="colorcontent2">
+        <h2>Why Work with Bridge?</h2>
+        <h5>At Bridge and through its employees and Partners we have a long experience in Marketing, Business, and Technology. Not that we only know Marketing, but that we also have a deep understanding in Business and Technology. Through combining our knowledge we can always find the best Marketing Solution that is right for your business making use of latest technology.</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="imgblackcover3">
+      <div class="colorcontent1">
+        <h2>Why Work with Bridge?</h2>
+        <h5>At Bridge and through its employees and Partners we have a long experience in Marketing, Business, and Technology. Not that we only know Marketing, but that we also have a deep understanding in Business and Technology. Through combining our knowledge we can always find the best Marketing Solution that is right for your business making use of latest technology.</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ////////////////////////////////////////////////        3 images ends here         /////////////////////////////////////////// -->
+
+
+
+<!-- ////////////////////////////////////////////////        promise starts here         /////////////////////////////////////////// -->
+
+<div class="container-fluid promise text-center">
+
+  <div class=" col-md-12">
+    <h6>THIS IS</h6>
+    <h2>OUR PROMISE</h2>
+    <hr>
+  </div> 
+
+  <div class="col-md-offset-3 col-md-6 promisetext">
+      <h1>"</h1>
+      <h2>We Promise to take you from where you are to where you want to be, fast and with optimal cost.</h2>
+  </div>
+
+</div>
+
+
+
+
+<!-- ////////////////////////////////////////////////        promise ends here         /////////////////////////////////////////// -->
+
+
+
+
+
+<!-- ////////////////////////////////////////////////        best projects here         /////////////////////////////////////////// -->
+
+
+<div class="container projects text-center">
+
+  <div class=" col-md-12">
+    <h6>BEST OF OUR</h6>
+    <h2>LATEST PROJECTS</h2>
+    <hr>
+  </div> 
+
+  <div class=" text-left ">
+    <div class="col-md-3">
+      <div class="projectlogo">
+        <div class="logocolorcontent">
+          <div class="leftline"></div>
+          <h3>86 VALLEY</h3>
+          <h4>WEB AND BRANDING</h4>
+        </div>
+      </div>
+   </div>
+   <div class="col-md-3">
+     <div class="projectlogo">
+       <div class="logocolorcontent">
+        <div class="leftline"></div>
+         <h3>86 VALLEY</h3>
+         <h4>WEB AND BRANDING</h4>
+       </div>
+     </div>
+  </div>
+  <div class="col-md-3">
+    <div class="projectlogo">
+      <div class="logocolorcontent">
+        <div class="leftline"></div>
+        <h3>86 VALLEY</h3>
+        <h4>WEB AND BRANDING</h4>
+      </div>
+    </div>
+ </div>
+ <div class="col-md-3">
+   <div class="projectlogo">
+     <div class="logocolorcontent">
+      <div class="leftline"></div>
+       <h3>86 VALLEY</h3>
+       <h4>WEB AND BRANDING</h4>
+     </div>
+   </div>
+</div>
+<div class="col-md-3">
+  <div class="projectlogo">
+    <div class="logocolorcontent">
+      <div class="leftline"></div>
+      <h3>86 VALLEY</h3>
+      <h4>WEB AND BRANDING</h4>
+    </div>
+  </div>
+</div>
+   <div class="col-md-3">
+    <div class="projectlogo">
+      <div class="logocolorcontent">
+        <div class="leftline"></div>
+        <h3>86 VALLEY</h3>
+        <h4>WEB AND BRANDING</h4>
+      </div>
+    </div>
+ </div>
+ <div class="col-md-3">
+  <div class="projectlogo">
+    <div class="logocolorcontent">
+      <div class="leftline"></div>
+      <h3>86 VALLEY</h3>
+      <h4>WEB AND BRANDING</h4>
+    </div>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="projectlogo">
+    <div class="logocolorcontent">
+      <div class="leftline"></div>
+      <h3>86 VALLEY</h3>
+      <h4>WEB AND BRANDING</h4>
+    </div>
+  </div>
+</div>
+
+  <div class="col-md-offset-5   col-md-2 seeallbtn text-center">
+    <a href="" ><button class="btn btn-default btn-lg" >SEE ALL</button></a>
+  </div>
+
+ </div>
+
+
+
+
+</div>
+
+
+<!-- ////////////////////////////////////////////////        bets projects ends here         /////////////////////////////////////////// -->
+
+
+<!-- ////////////////////////////////////////////////        recent blogs starts here         /////////////////////////////////////////// -->
+
+
+
+<div class="container-fluid blogs text-center">
+
+  <div class="col-md-6 col-md-offset-3">
+    <h6>OUR RECENT BLOGS</h6>
+    <h2>GET INSPIRED BY OUR DIGITAL MARKETING KNOWLEDGE</h2>
+    <hr>
+  </div> 
+
+  <div class="threeblogs">
+  <div class="col-md-4">
+    <div class="imgpart">
+      <div class="colorcontentimgpart">
+        <h2 class="plus">+</h2>
+      </div>
+    </div>
+    <div class="content">
+      <a href="">Step by step. We will come through against COVID-19!</a>
+      <h6>The two main pillars that keep any company afloat during the time of the COVID-19...</h6>
+        <a href="" ><button class="btn btn-default" >READ MORE</button></a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="imgpart">
+      <div class="colorcontentimgpart">
+        <h2 class="plus">+</h2>
+      </div>
+    </div>
+    <div class="content">
+      <a href="">Step by step. We will come through against COVID-19!</a>
+      <h6>The two main pillars that keep any company afloat during the time of the COVID-19...</h6>
+        <a href="" ><button class="btn btn-default" >READ MORE</button></a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="imgpart">
+      <div class="colorcontentimgpart">
+        <h2 class="plus">+</h2>
+      </div>
+    </div>
+    <div class="content">
+      <a href="">Step by step. We will come through against COVID-19!</a>
+      <h6>The two main pillars that keep any company afloat during the time of the COVID-19...</h6>
+        <a href="" ><button class="btn btn-default" >READ MORE</button></a>
+    </div>
+  </div>  
+  </div>
+
+
+
+</div>
+
+
+
+<!-- ////////////////////////////////////////////////        recent blogs ends here         /////////////////////////////////////////// -->
+
+
+
+
+
+<!-- ////////////////////////////////////////////////        contact start here         /////////////////////////////////////////// -->
+
+<div class="container-fluid contact">
+  <div class="col-md-6">
+    <h2>Feel free to get in touch with us</h2>
+    <div class="fourcontacts">
+      <div class="onecontact col-md-12">
+        <div class="col-md-2">
+          <img src="vendor/images/youtube.png" width="90px">
+        </div>
+        <div class="col-md-10">
+          <h5>Our Address</h5>
+          <h6>Al-Mokattam No. 40, Central Street from Street 9, Cairo, Egypt.</h6>
+        </div>
+      </div>
+      <hr>
+      <div class="onecontact col-md-12">
+        <div class="col-md-2">
+          <img src="vendor/images/youtube.png" width="90px">
+        </div>
+        <div class="col-md-10">
+          <h5>Our Address</h5>
+          <h6>Al-Mokattam No. 40, Central Street from Street 9, Cairo, Egypt.</h6>
+        </div>
+      </div>
+      <hr>
+      <div class="onecontact col-md-12">
+        <div class="col-md-2">
+          <img src="vendor/images/youtube.png" width="90px">
+        </div>
+        <div class="col-md-10">
+          <h5>Our Address</h5>
+          <h6>Al-Mokattam No. 40, Central Street from Street 9, Cairo, Egypt.</h6>
+        </div>
+      </div>
+      <hr>
+      <div class="onecontact col-md-12">
+        <div class="col-md-2">
+          <img src="vendor/images/youtube.png" width="90px">
+        </div>
+        <div class="col-md-10">
+          <h5>Our Address</h5>
+          <h6>Al-Mokattam No. 40, Central Street from Street 9, Cairo, Egypt.</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="contactspart2">
+      <h4>Looking for a excellent business idea?</h4>
+      <input type="text" class="form-control" placeholder="Enter Name" id="name">
+      <input type="email" class="form-control" placeholder="Enter Email" id="email">
+      <input type="text" class="form-control" placeholder="Enter Subject" id="subject">
+      <textarea class="form-control" rows="5" placeholder="Enter Your Message" id="comment"></textarea>
+      <a href="" ><button class="btn btn-default" >SEND MESSAGE</button></a>
+    </div>
+  </div>
+</div>
+
+<!-- ////////////////////////////////////////////////        contact ends here         /////////////////////////////////////////// -->
+
+
+
+<!-- ////////////////////////////////////////////////        map starts here         /////////////////////////////////////////// -->
+
+
+<div id="googleMap" style="width:100%;height:450px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> 
+
+
+
+<!-- ////////////////////////////////////////////////        map ends here         /////////////////////////////////////////// -->
+
+
+
+<!-- ////////////////////////////////////////////////        footer starts here         /////////////////////////////////////////// -->
+
+<div class="container-fluid pagefooter">
+  <div class="col-md-3 rightborder">
+    <h5>
+      BRIDGE DIGITAL MARKETING
+    </h5>
+    <div>
+      <h6>
+        Bridge is one of the Elite Digital Marketing Agencies based in Egypt founded in 2015. A Group of Digital Marketing professionals working under guidance of best Digital Marketing expertise in the Egyptian and Arab Market.We don’t just do Digital Marketing, we do it with passion and excellence. Before taking over your marketing activities we investigate and learn your business thoroughly and build a strategy to take you from where you are to where you want to be. Thus, we bridge the gap to your dreams.
+      </h6>
+    </div>
+  </div>
+  <div class="col-md-3 rightborder">
+    <h5>
+      SUBSCRIBE WITH US!
+    </h5>
+    <div>
+      <h6>
+        Stay tuned with fresh tips & marketing tactics.
+      </h6>
+      <div class="input-group">
+        <input type="email" class="form-control" placeholder="Enter your email..." name="mail">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 rightborder">
+    <h5>
+      LATEST BLOG POST
+    </h5>
+    <div>
+      
+      
+      <div class="threecontacts">
+        <div class="contact1 col-md-12 container-fluid">
+          <div class="col-md-2">
+            <img src="vendor/images/youtube.png" width="45px">
+          </div>
+          <div class="col-md-10">
+            <h6>Al-Mokattam No. 40, Central Street from Street 9, Cairo, Egypt.</h6>
+          </div>
+        </div>
+        <hr>
+        <div class="contact1 col-md-12 container-fluid">
+          <div class="col-md-2">
+            <img src="vendor/images/youtube.png" width="45px">
+          </div>
+          <div class="col-md-10">
+            <h6>Al-Mokattam No. 40, Central Street from Street 9, Cairo, Egypt.</h6>
+          </div>
+        </div>
+        <hr>
+        <div class="contact1 col-md-12 container-fluid">
+          <div class="col-md-2">
+            <img src="vendor/images/youtube.png" width="45px">
+          </div>
+          <div class="col-md-10">
+            <h6>Al-Mokattam No. 40, Central Street from Street 9, Cairo, Egypt.</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-md-3">
+    <h5>
+      SITE MAP
+    </h5>
+    <div>
+      <h6>
+      </h6>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- ////////////////////////////////////////////////        footer  ends here         /////////////////////////////////////////// -->
+
+
+<!-- ////////////////////////////////////////////////        copyrights starts here         /////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+<!-- ////////////////////////////////////////////////        copyrights ends here         /////////////////////////////////////////// -->
+
+
+
+
+  </body>
+
+</html>
+
+
+

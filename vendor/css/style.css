@@ -1,0 +1,602 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* /////////////////////////////////////////////////        navbar starts here         ///////////////////////////////////////////// */
+
+.navbar button span{ 
+  background-color: black;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+button.collapsebutton{
+  margin: 13px 0px 0px 0px ;
+}
+
+.navbar {
+  transition: top 0.5s ease;
+  background-color: white;
+  padding: 12px;
+}
+
+.navbar-hide {
+  top: -75px;
+}
+
+.navbar a{
+  color: black;
+  font-weight: bold;
+  font-size:small;
+  background-color: white;
+}
+
+.navbar .active a{
+  color: rgba(0, 0, 0, 0.568);
+  background-color: white;
+}
+
+.navbar li a:hover{
+  color: black;
+  background-color: white;
+}
+
+.navbar .active a:hover{
+  color: rgba(0, 0, 0, 0.568);
+  background-color: white;
+}
+
+.navbar li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar img{
+  position: relative;
+  top:-10px;
+  left: 30px;
+}
+
+.navbar .icons{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar .icons:hover{
+  color: #c32424;
+  transition: color 0.75s ease;
+}
+
+.navbar .icons .fa-search{
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar .iconscollapse .fa-search{
+  border-left: 1px solid grey;
+  padding: 0px 5px 5px 20px;
+}
+
+.navbar .iconscollapse:hover{
+  color:grey;
+  transition: color 0.75s ease;
+}
+
+/* /////////////////////////////////////////////////        navbar ends here         ///////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////        modal starts here         ///////////////////////////////////////////// */
+
+.modal-content {
+  background-color: #180000;
+  border: none;
+  margin-top: 40%;
+  color: white;
+  padding: 30px;
+}
+
+.modal{
+  background-color: #180000;
+}
+.close{
+  color: white;
+  margin: 50px;
+  text-shadow: none;
+}
+
+.modal span,.modal .btn{
+  color: white;
+  font-size: small;
+  border: none;
+  background-color: #180000;
+}
+
+.modal input{
+  background-color: #180000;
+  color: white;
+  border: none;
+}
+
+
+.modal .input-group{
+  background-color: #180000;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  border-bottom: 1px solid white;
+}
+
+/* /////////////////////////////////////////////////        modal ends here         ///////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////        carousel starts here         ///////////////////////////////////////////// */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+
+.carousel-control:hover, .carousel-control:link{
+  background-image: none; 
+  padding: 10px;
+  margin: 5px;
+  color: black;
+}
+
+.glyphicon-chevron-left , .glyphicon-chevron-right
+{
+  position: relative;
+  top:-10px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.carouseltext{
+  background-color: #ac1f23;
+  height: 600px;
+  color: white;
+  padding-top:12%;
+  padding-left: 11%;
+}
+
+.carouseltext h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.carouseltext button{
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0px;
+}
+
+.carouseltext button:hover{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 0px;
+}
+
+.image{
+  height: 600px;
+  padding: 0px;
+}
+
+.carousel{
+  position: relative;
+  top:50px;
+}
+
+.carousel-indicators li{
+  border-radius: 0px;
+  border: 2px solid rgba(0, 0, 0, 0.336);
+  width: 30px;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.336);
+  margin: 0px;
+}
+
+.carousel-indicators li.active{
+  border-radius: 0px;
+  border: 2px solid black;
+  width: 30px;
+  margin: 0px;
+  height: 5px;
+  background-color: black;
+}
+
+/* /////////////////////////////////////////////////        carousel ends here         ///////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////        our services starts here         ///////////////////////////////////////////// */
+
+.services{
+  position: relative;
+  top: 100px;
+  margin-bottom: 40px;
+}
+
+.threeservices{
+  margin-top: 40px;
+}
+
+.threeservices h5{
+  font-weight: bold;
+}
+
+.services hr{
+  width: 10%;
+  border: 1px solid #ac1f23;
+}
+
+
+/* /////////////////////////////////////////////////         our services ends here         ///////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////////////     3images starts here ///////////////////////////////////////////////////////    */
+
+.threeimgs{
+  margin-top: 150px;
+  color: white;
+}
+
+.threeimgs .col-md-4{
+  padding: 0px;
+}
+
+.threeimgs .imgblackcover1{
+  background-image: url(../images/shake.jpg);
+}
+
+.threeimgs .imgblackcover2{
+  background-image: url(../images/midimg.jpg);
+}
+
+.threeimgs .imgblackcover3{
+  background-image: url(../images/door.jpg);
+}
+
+.threeimgs h5{
+  padding-top: 20px;
+}
+
+.threeimgs .colorcontent1{
+  background-color: rgba(0, 0, 0, 0.692);
+  padding: 70px;
+}
+
+
+.threeimgs .colorcontent2{
+  background-color: #ac1f24cc ;
+  padding: 70px;
+}
+
+/* /////////////////////////////////////////////////////////////// 3 imges ends here ///////////////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////////////////// promise starts here ///////////////////////////////////////////////////// */
+
+.promise{
+  background-color: black;
+  padding: 20px 20px 80px 20px;
+  color: white;
+}
+
+.promise hr{
+  width: 10%;
+  border: 1px solid #ac1f23;
+}
+
+.promisetext {
+  background-color: #ac1f23;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.promisetext h1{
+  position: relative;
+  top: -35px;
+  font-size: 50px;
+}
+
+.promisetext h2{
+  position: relative;
+  top: -35px;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////// promise ends here ///////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////// best projects here ///////////////////////////////////////////////////// */
+
+.projects{
+  padding: 40px;
+}
+
+.leftline{
+  width: 10%;
+  border-top: 1px solid #ac1f23;
+  margin-top: 40px;
+}
+
+.projects hr{
+  width: 10%;
+  border-top: 1px solid #ac1f23;
+}
+
+.logocolorcontent{
+  padding: 30px;
+}
+
+.logocolorcontent > *{
+ visibility: hidden;
+}
+
+.logocolorcontent:hover{
+  background-color: rgba(0, 0, 0, 0.925);
+  padding: 30px;
+  color: white;
+}
+
+.logocolorcontent:hover > *{
+  visibility: visible;
+}
+
+.projectlogo{
+  background-image: url(../images/projectlogo.png);
+  background-repeat: no-repeat;
+}
+
+.projects .col-md-3{
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.seeallbtn button{
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  margin-top: 40px;
+  width: 150px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.seeallbtn button:hover{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+
+/* /////////////////////////////////////////////////////////////// best projects ends here ///////////////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////////////////// recent blogs ends here ///////////////////////////////////////////////////// */
+
+.blogs{
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blogs hr{
+  width: 10%;
+  border-top: 1px solid #ac1f23;
+}
+
+.blogs .col-md-6{
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+.blogs h2{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.blogs .col-md-4{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.threeblogs{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.blogs .content{
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+}
+
+.blogs .imgpart{
+  background-image: url(../images/shake.jpg);
+}
+
+.blogs .plus{
+  color: white;
+  visibility: hidden;
+  padding: 70px 30px;
+  margin: 0px;
+}
+
+.blogs .colorcontentimgpart:hover{
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+.blogs .colorcontentimgpart:hover > .plus{
+  visibility: visible;
+}
+
+.blogs a{
+  text-decoration: none;
+  color: black;
+}
+
+.blogs .btn{
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  font-weight: bold;
+  width: 110px;
+  font-size: smaller;
+}
+
+.blogs .btn:hover{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+/* /////////////////////////////////////////////////////////////// recent blogs ends here ///////////////////////////////////////////////////// */
+
+/* /////////////////////////////////////////////////////////////// contact starts here ///////////////////////////////////////////////////// */
+
+.contact{
+  background-color: black;
+  border-top: 1px solid #ac1f23;
+  border-bottom: 1px solid #ac1f23;
+  color: white;
+}
+
+.contact h2{
+  padding-left: 40px;
+}
+
+.contact h6{
+  color: #f7f7f741;
+}
+
+.contact .fourcontacts{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact .col-md-6{
+  padding: 70px;
+}
+
+.contact .col-md-2{
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+.contact .onecontact{
+  margin-top: 20px;
+}
+
+.contact .contactspart2{
+  color: black;
+  padding: 50px;
+  background-color: white ;
+  border-radius: 5px;
+}
+
+.contact input{
+  margin-top: 20px;
+  background-color: #f7f7f7;
+}
+
+.contact textarea{
+  resize: none;
+  margin-top: 20px;
+  background-color: #f7f7f7;
+}
+
+.contact .btn{
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  width: 130px;
+  font-size: smaller;
+}
+
+.contact .btn:hover{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+.contact hr{
+  border:0.5px solid #f7f7f741;
+}
+
+/* /////////////////////////////////////////////////////////////// contact ends here ///////////////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////////////////// footer starts here ///////////////////////////////////////////////////// */
+
+
+.pagefooter{
+  background-color: black;
+  color: #f7f7f741;
+  padding: 40px 100px;
+}
+
+.pagefooter h5{
+  color: #ac1f23;
+  padding-bottom: 20px;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+.rightborder{
+  border-right: 1px solid #f7f7f741;
+  height: 250px;
+}
+
+.pagefooter input{
+  border-radius: 0px;
+  background-color: transparent;
+  color: #f7f7f741;
+  border: 1px solid #f7f7f741;
+}
+
+.pagefooter button{
+  border-radius: 0px;
+  background-color: transparent;
+  border: 1px solid #f7f7f741;
+}
+
+.pagefooter .contact1{
+  padding:0px;  
+}
+
+.pagefooter img{
+  padding-top: 5px;
+}
+
+
+/* /////////////////////////////////////////////////////////////// footer ends here ///////////////////////////////////////////////////// */
+
